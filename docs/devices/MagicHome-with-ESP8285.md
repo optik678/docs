@@ -102,6 +102,14 @@ Manual configuration:
 |GPIO15|41 PWM5|WARM WHITE|
 |GPIO16|159 ALux IrSel||
 
+**HELIGHT RF21K WIFI RGB 4pin (ZJ-WFMN-B V1.1) variant**
+| Field | Value |
+|---|---|
+|Module type|18 Generic|
+|GPIO4|51 IRRecv|
+|GPIO5|37 PWM1|
+|GPIO12|39 PWM3|
+|GPIO14|38 PWM2|
 
 With all that done, one of the critical things I needed to do so I could set the colors was to run the command to set `SetOption15 1`. 
 
